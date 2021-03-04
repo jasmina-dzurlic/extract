@@ -13,7 +13,7 @@ Often times in biology articles, there are tables listing sample names and locat
 The user will need to be in the directory that contains the PDF files that `extractify` will be parsing infomration from. The user will also need to specify what PDF to extract information as well as direct the program to the table the GPS coordinates are found in. The user will also be able to specificy area of interest that the coordinates are found in to give a more concise map. 
 
 #### Examples of PDF Table from Murphy et al. (2017)
-![useful image](./project/pictures/example_map.png)
+![PDF Table Example](pictures/example_map.png)
 
 ------------
 
