@@ -1,15 +1,16 @@
 # project
 
 ### Description of project goal
-I have two project ideas: 
-1. Looking at aerial images and identify animals, count indiviuals, and if there are GPS points associated with images plot points onto a map or crop pictures
-2. Taking a reference genome and identify polymorphic sites and output a fasta file 
+This program will extract GPS coordiantes from PDF and povide a CSV file and plot the coordinates to the area/region/country of interest. 
 
 ### Description of code 
-Not sure yet...
+python prgorams that I will use include: 
+'tabula-py'
+'pandas'
+'geopandas'
 
 ### Description of data
-Data would be accessed from public online databases 
+I will be using a test PDF that has the GPS coordinate in a table. Using 'tabula-py' I will extract this infomration and it will convery it into a panda.DataFrame with (Locality and coordinates). Using this file I will then plot using 'geopandas'.
 
 ### Description of user interface 
-I would like to be able to call it from the command line and the outputs would save to a .txt file in the directory
+User will need to specify PDF that the program will need to extract from as well as what table the GPS coordinates are found in. 
