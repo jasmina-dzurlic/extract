@@ -22,7 +22,7 @@ The user will get two outputs saved to the user's directory. There will first be
 
 #### Example of map output 
 
-![Map Example](pictures/exampl_map.png)
+![Map Example](pictures/example_map.png)
 
 --------------
 
