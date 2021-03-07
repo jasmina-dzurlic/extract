@@ -8,6 +8,9 @@ This program will accomplish three things: (1) read a PDF table and extract samp
 
 Developers can install the program using `git clone`
 
-`git clone git@github.com:aparnac25/extractify.git`
+`git clone git@github.com:aparnac25/extract.git`
+
 `cd ./extractify`
-`pip install e. 
+
+`pip install e.`
+
