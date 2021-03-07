@@ -1,4 +1,4 @@
-# Proposal for `extractify`
+# Proposal for `extract`
 
 ### Project Goals
 In biology articles, there are tables listing sample names and locations through GPS coordinates. More often than not they are hard to copy over to a Word or Excel document and rewritting them can be time consuming, tedious, and prone to error if there are a lot of sample locations. In addition, depedning on how the GPS coordinates are presented it may require you to convert them to a standard format to plot to  Google Earth or Google Maps. This is where `extractify` comes in. The program will accomplish three things: 
