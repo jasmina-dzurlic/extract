@@ -12,5 +12,5 @@ Developers can install the program using `git clone`
 
 `cd ./extractify`
 
-`pip install e.`
+`pip install -e .`
 
