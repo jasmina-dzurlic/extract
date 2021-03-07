@@ -10,7 +10,7 @@ Developers can install the program using `git clone`
 
 `git clone git@github.com:aparnac25/extract.git`
 
-`cd ./extractify`
+`cd ./extract`
 
 `pip install -e .`
 
