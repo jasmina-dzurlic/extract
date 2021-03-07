@@ -1,12 +1,13 @@
-# `extractify`
+# `extract`
 
-This program will accomplish three things read a PDF table and extract sample location names and GPS coordinates convert to decimal deggrees format and plot converted coordinates to a map. 
+This program will accomplish three things: (1) read a PDF table and extract sample location names and GPS coordinates; (2) convert to decimal deggrees format, and (3) plot converted coordinates to a map. 
 
 ---
 
 ### In development 
 
-Users can install the program using `git clone`
+Developers can install the program using `git clone`
 
 `git clone git@github.com:aparnac25/extractify.git`
-
+`cd ./extractify`
+`pip install e. 
