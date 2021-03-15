@@ -14,3 +14,7 @@ Developers can install the program using `git clone`
 
 `pip install -e .`
 
+
+Need to also install `tabula.py` and it needs java to run 
+
+`!pip install -q tabula-py`
