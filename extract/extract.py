@@ -12,12 +12,13 @@ import os
 
 # create a pdf path to the documents folder where you will have your PDF documents
  
-relative_path = '/documents/Murphy2017.pdf'
-current_dir = os.getcwd()
-pdf_path = os.path.join(current_dir, relative_path)
+#pdf_path =os.relativepath(/project/documents/MurphyRTL2017.pdf)
 
-print(pdf_path)
+pdf_path = "https://link.springer.com/content/pdf/10.1007/s10764-017-9967-8.pdf"
 
 # create a table variable and read all the pages and extract all the tables from the PDF 
 
-# all_tables = tabula.read_pdf(pdf_path, pages = "all", multiple_tables = True)
+all_tables = tabula.read_pdf(pdf_path, pages = "all", stream = True)
+
+all_tables.head()
+# read the first table with coordiantes into a dataframe
