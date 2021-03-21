@@ -6,10 +6,9 @@ Install extract package. To install locally use:
 
 from setuptools import setup
 
+# build command
 setup(
     name="extract",
     version="0.0.1",
-    entry_points={
-        'console_scripts': ['extract = extract:extract']
-    }
+    description="package to read pdf for coordinates and plot to map"
 )
