@@ -6,3 +6,4 @@ files to ignore when uploading to git
 *.DS_Store
 *extract.egg-info
 *__pycache__
+*.ipynb_checkpoints
