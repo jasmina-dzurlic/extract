@@ -1,4 +1,8 @@
+files to ignore when uploading to git
+
 *../.DS_Store
 *../.ipynb_checkpoints/
 *../Untitled.ipynb
 *.DS_Store
+*extract.egg-info
+*__pycache__
