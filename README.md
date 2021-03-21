@@ -10,6 +10,8 @@ Developers can install the program using `git clone`
 
 `git clone git@github.com:aparnac25/extract.git`
 
+Currently the `pip install` is not working. Hopefully soon one can use below code to run on command line.
+
 `cd ./extract`
 
 `pip install -e .`
