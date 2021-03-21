@@ -15,6 +15,6 @@ Developers can install the program using `git clone`
 `pip install -e .`
 
 
-Need to also install `parser` from `tika` and it needs java to run 
+Need to also install `tika` and it needs java to run 
 
 `pip install tika`
