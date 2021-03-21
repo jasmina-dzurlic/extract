@@ -1,6 +1,6 @@
 # `extract`
 
-This program will accomplish three things: (1) read a PDF table and extract sample location names and GPS coordinates; (2) convert to decimal deggrees format, and (3) plot converted coordinates to a map. 
+This program will accomplish three things: (1) read a PDF and extract sample location names and GPS coordinates; (2) convert to decimal deggrees format, and (3) plot converted coordinates to a map. 
 
 ---
 
@@ -15,6 +15,6 @@ Developers can install the program using `git clone`
 `pip install -e .`
 
 
-Need to also install `tabula.py` and it needs java to run 
+Need to also install `parser` from `tika` and it needs java to run 
 
-`!pip install -q tabula-py`
+`pip install tika`
