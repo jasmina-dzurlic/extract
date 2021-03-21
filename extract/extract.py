@@ -7,7 +7,6 @@ A function to extract GPS coordinates from a PDF and outputting a CSV file with 
 # First step in creating program is to extract the relevant infromation from a PDF 
 
 from tika import parser
-import pandas as pd 
 import os
 
 # create a pdf path to the documents folder where you will have your PDF documents
@@ -29,6 +28,3 @@ def extract(pdf_path):
 # asks user to import the path to pdf that they want extract to get the content from (remeber to have .pdf at end of file --add
 # that to the help section)
 pdf_path = input("Please input pdf path \n").lower()
-
-if __name__ == "__main__":
-    extract(pdf_path)
