@@ -1,3 +1,7 @@
 #!/usr/bin/env python
+"""
+init file for extract package"""
 
-from extract import extract
+__version__ = "0.0.1"
+
+from .extract import extract
