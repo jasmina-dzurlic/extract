@@ -27,4 +27,4 @@ def extract(pdf_path):
 
 # asks user to import the path to pdf that they want extract to get the content from (remeber to have .pdf at end of file --add
 # that to the help section)
-pdf_path = input("Please input pdf path \n").lower()
+pdf_path = input("Please input full pdf path \n").lower()
