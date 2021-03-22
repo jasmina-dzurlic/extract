@@ -23,7 +23,7 @@ def extract(pdf_path):
     parsed_pdf = parser.from_file(pdf_path)
     # saving content of PDF
     data = parsed_pdf['content']
-    return data 
+    return(data)
 
 # asks user to import the path to pdf that they want extract to get the content from (remeber to have .pdf at end of file --add
 # that to the help section)
