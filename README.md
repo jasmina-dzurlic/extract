@@ -15,7 +15,7 @@ Developers can install and test the program using `git clone`
 
 `git clone git@github.com:aparnac25/extract.git`
 
-once cloned `cd ./extract/` and run python extract.py in terminal. It will input you to enter in a path to the PDF you wish to upload. That is as far as I have gotten. I am currently trying to extract out the GPS coordinates using `regex` 
+once cloned change directory `cd ./extract/` and run `python extract.py` in terminal. It will input you to enter in a path to the PDF you wish to upload. That is as far as I have gotten. I am currently trying to extract out the GPS coordinates using `regex` 
 
 
 ## Not working 
