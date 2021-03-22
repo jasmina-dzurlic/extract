@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 """
-Install extract package. To install locally use:
-	pip install -e .
+Install extract package. To install locally use: pip install -e .
 """
 
 from setuptools import setup
@@ -10,5 +9,10 @@ from setuptools import setup
 setup(
     name="extract",
     version="0.0.1",
-    description="package to read pdf for coordinates and plot to map"
+    author="Aparna Chandrashekar",
+    author_email="achandrashekar@gradcenter.cuny.edu",
+    description="program to read PDF and extract coordinates to plot onto map'",
+    install_requires = ["pandas", "tika"], 
+    classifiers=["Programming Language :: Python :: 3"],
+    scripts= ['extract/extract.py']
 )
