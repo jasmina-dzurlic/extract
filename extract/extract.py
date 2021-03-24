@@ -22,7 +22,8 @@ def extract(pdf_path):
     # opening up PDF with tika parser
     parsed_pdf = parser.from_file(pdf_path)
     # saving content of PDF
-    data = parsed_pdf['content']
+    data = parsed_pdf['content']  # Does the pdf have to be organized and sparsed when uploaded or would some code here to parse and select certain values 
+                                  # of the pdf be useful to the user? 
     return(data)
 
 # asks user to import the path to pdf that they want extract to get the content from (remeber to have .pdf at end of file --add
