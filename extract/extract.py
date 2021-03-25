@@ -16,6 +16,12 @@ import os
 # saving content of PDF
 # data = parsed_pdf['content']
 
+## Make a class object where arguments are input path of pdf and output path of maps and csv file
+# Class Extract(self, input_path, output_path)
+	# def __init__: 
+		# self.input_path = 
+		# self.outputh_path = 
+
 def extract(pdf_path):
     """This function will extract the content from a PDF file and retrun it
     when given a path"""
