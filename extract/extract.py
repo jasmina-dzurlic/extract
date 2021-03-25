@@ -17,10 +17,39 @@ import os
 # data = parsed_pdf['content']
 
 ## Make a class object where arguments are input path of pdf and output path of maps and csv file
-# Class Extract(self, input_path, output_path)
+# Class Extract(self, workingdir, pdf_file, outputdir)
 	# def __init__: 
-		# self.input_path = 
-		# self.outputh_path = 
+		
+		# store input parameters
+
+		# self.workdir = os.path.realpath(os.path.expanduser(workdir))
+		# self.pdf_file = pdf_file
+		
+		#store output paramters
+		# self.outputdir = outputdir
+
+	# def extract_content(pdf_path):
+		
+		"""This function will extract the content from a PDF file and retrun it
+    	when given a path"""
+    	
+    	# opening up PDF with tika parser
+    	#parsed_pdf = parser.from_file(pdf_path)
+    	
+    	# saving content of PDF
+    	#data = parsed_pdf['content']
+    	
+    	#return(data)	
+
+    # maybe combine with above function so end data is pandas DF of coordinates
+    # def extract_gps(data):
+
+    # def conversion(X):
+    # geo-pandas package?
+
+    # def pdf_plot(Y):
+    # folium package? 
+
 
 def extract(pdf_path):
     """This function will extract the content from a PDF file and retrun it
