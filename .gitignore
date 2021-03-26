@@ -7,3 +7,4 @@ files to ignore when uploading to git
 *.ipynb_checkpoints
 extract.egg-info
 __pycache__
+notes.md
